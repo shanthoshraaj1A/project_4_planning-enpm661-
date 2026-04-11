@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (package_uid) JobQueued: {'identifier': 'package_uid', 'dependencies': OrderedDict()}
+[0.000223] (package_uid) JobStarted: {'identifier': 'package_uid'}
+[0.007415] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'cmake'}
+[0.008057] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'build'}
+[0.008567] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shanthosh/Downloads/Project 4/build/package_uid', '--', '-j12', '-l12'], 'cwd': '/home/shanthosh/Downloads/Project 4/build/package_uid', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/shanthosh/Downloads/Project 4'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('USER', 'shanthosh'), ('SNAP_COMMON', '/var/snap/code/common'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/233/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/shanthosh/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/shanthosh'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/shanthosh/snap/code/233'), ('GTK_PATH', '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-46d80ded-1.11-main.sock'), ('GTK_IM_MODULE_FILE', '/home/shanthosh/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1921'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa68ddb2ed1395419a20fe69d99b1f'), ('SNAP_REVISION', '233'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/shanthosh/miniconda3'), ('PYTHON_PATH', '/media/shanthosh/New Volume/isaac_stack/venvs/env_isaaclab/bin/python3.11'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shanthosh'), ('SNAP_CONTEXT', 'V4s2SgWrXToJc2551KbISpCIIdO2brtUQDhtLsXKQRiow-fsvxMJ'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '41dd792b'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('RUST_LOG', 'warn'), ('USERNAME', 'shanthosh'), ('ISAACLAB_PATH', '/media/shanthosh/New Volume/isaac_stack/workspace/IsaacLab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/home/shanthosh/.local/bin:/home/shanthosh/.codex/tmp/arg0/codex-arg0gOKkKo:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/shanthosh/miniconda3/bin:/home/shanthosh/miniconda3/condabin:/home/shanthosh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shanthosh/.vscode/extensions/openai.chatgpt-26.406.31014-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/shanthosh-Victus-by-HP-Gaming-Laptop-15-fb3:@/tmp/.ICE-unix/1921,unix/shanthosh-Victus-by-HP-Gaming-Laptop-15-fb3:/tmp/.ICE-unix/1921'), ('GTK_EXE_PREFIX', '/snap/code/233/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c1c3c0df_72e5_4c8c_b6b5_24222fa50de7'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/code/233'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/233/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_DATA_HOME', '/home/shanthosh/snap/code/233/.local/share'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.847MN3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/shanthosh/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shanthosh/snap/code/233/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', 'V4s2SgWrXToJc2551KbISpCIIdO2brtUQDhtLsXKQRiow-fsvxMJ'), ('CONDA_PYTHON_EXE', '/home/shanthosh/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/233/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('SNAP_NAME', 'code'), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('CODEX_THREAD_ID', '019d7a24-3f0a-7640-a304-a769c8cac89c'), ('GDK_PIXBUF_MODULE_FILE', '/home/shanthosh/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('_CONDA_EXE', '/home/shanthosh/miniconda3/bin/conda'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shanthosh/Downloads/Project 4/build/package_uid'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shanthosh/miniconda3/bin/conda'), ('SNAP_REAL_HOME', '/home/shanthosh'), ('VSCODE_CODE_CACHE_PATH', '/home/shanthosh/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=92aa68ddb2ed1395419a20fe69d99b1f'), ('XDG_DATA_DIRS', '/home/shanthosh/snap/code/233/.local/share:/home/shanthosh/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/code/233'), ('CONDA_PREFIX', '/home/shanthosh/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '51487'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061168] (package_uid) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pick_place_demo\n'}
+[0.081654] (package_uid) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pick_place_demo.dir/src/pick_place_demo.cpp.o\n'}
+[0.099388] (-) TimerEvent: {}
+[0.199553] (-) TimerEvent: {}
+[0.299751] (-) TimerEvent: {}
+[0.399974] (-) TimerEvent: {}
+[0.500187] (-) TimerEvent: {}
+[0.600402] (-) TimerEvent: {}
+[0.700669] (-) TimerEvent: {}
+[0.800935] (-) TimerEvent: {}
+[0.901163] (-) TimerEvent: {}
+[1.001397] (-) TimerEvent: {}
+[1.101630] (-) TimerEvent: {}
+[1.201868] (-) TimerEvent: {}
+[1.302102] (-) TimerEvent: {}
+[1.402331] (-) TimerEvent: {}
+[1.502567] (-) TimerEvent: {}
+[1.602801] (-) TimerEvent: {}
+[1.703043] (-) TimerEvent: {}
+[1.803244] (-) TimerEvent: {}
+[1.903440] (-) TimerEvent: {}
+[2.003627] (-) TimerEvent: {}
+[2.103841] (-) TimerEvent: {}
+[2.204078] (-) TimerEvent: {}
+[2.304278] (-) TimerEvent: {}
+[2.404497] (-) TimerEvent: {}
+[2.504744] (-) TimerEvent: {}
+[2.604985] (-) TimerEvent: {}
+[2.705224] (-) TimerEvent: {}
+[2.805493] (-) TimerEvent: {}
+[2.905775] (-) TimerEvent: {}
+[3.006045] (-) TimerEvent: {}
+[3.106347] (-) TimerEvent: {}
+[3.206653] (-) TimerEvent: {}
+[3.306926] (-) TimerEvent: {}
+[3.407237] (-) TimerEvent: {}
+[3.507504] (-) TimerEvent: {}
+[3.607747] (-) TimerEvent: {}
+[3.707982] (-) TimerEvent: {}
+[3.808219] (-) TimerEvent: {}
+[3.908454] (-) TimerEvent: {}
+[4.008656] (-) TimerEvent: {}
+[4.108846] (-) TimerEvent: {}
+[4.209052] (-) TimerEvent: {}
+[4.309253] (-) TimerEvent: {}
+[4.409496] (-) TimerEvent: {}
+[4.509748] (-) TimerEvent: {}
+[4.609968] (-) TimerEvent: {}
+[4.710194] (-) TimerEvent: {}
+[4.810380] (-) TimerEvent: {}
+[4.910566] (-) TimerEvent: {}
+[5.010759] (-) TimerEvent: {}
+[5.110958] (-) TimerEvent: {}
+[5.211160] (-) TimerEvent: {}
+[5.311382] (-) TimerEvent: {}
+[5.411630] (-) TimerEvent: {}
+[5.455686] (package_uid) StdoutLine: {'line': b'[100%] Linking CXX executable pick_place_demo\n'}
+[5.511800] (-) TimerEvent: {}
+[5.612104] (-) TimerEvent: {}
+[5.681913] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `X509_STORE_CTX_init_rpk@OPENSSL_3.2.0'\n"}
+[5.682221] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_recvmmsg@OPENSSL_3.2.0'\n"}
+[5.682626] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_sleep@OPENSSL_3.2.0'\n"}
+[5.683154] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_ERR_STATE_restore@OPENSSL_3.2.0'\n"}
+[5.683506] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OPENSSL_strtoul@OPENSSL_3.4.0'\n"}
+[5.683952] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OPENSSL_LH_set_thunks@OPENSSL_3.3.0'\n"}
+[5.684414] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_sendmmsg@OPENSSL_3.2.0'\n"}
+[5.684711] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_err_is_non_fatal@OPENSSL_3.2.0'\n"}
+[5.685162] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_get_rpoll_descriptor@OPENSSL_3.2.0'\n"}
+[5.685463] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_ERR_STATE_free@OPENSSL_3.2.0'\n"}
+[5.685705] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_LIB_CTX_get_data@OPENSSL_3.4.0'\n"}
+[5.686103] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_ADDR_copy@OPENSSL_3.2.0'\n"}
+[5.686610] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_STACK_OF_X509_free@OPENSSL_3.2.0'\n"}
+[5.687113] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_ERR_STATE_save_to_mark@OPENSSL_3.2.0'\n"}
+[5.687331] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_ERR_STATE_save@OPENSSL_3.2.0'\n"}
+[5.687765] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_get_wpoll_descriptor@OPENSSL_3.2.0'\n"}
+[5.687990] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `BIO_s_dgram_mem@OPENSSL_3.2.0'\n"}
+[5.688238] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `EVP_MD_CTX_get_size_ex@OPENSSL_3.4.0'\n"}
+[5.688664] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_LIB_CTX_get_conf_diagnostics@OPENSSL_3.4.0'\n"}
+[5.689410] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `OSSL_ERR_STATE_new@OPENSSL_3.2.0'\n"}
+[5.689813] (package_uid) StderrLine: {'line': b"/usr/bin/ld: /home/shanthosh/miniconda3/lib/libssl.so.3: undefined reference to `ERR_count_to_mark@OPENSSL_3.2.0'\n"}
+[5.697574] (package_uid) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.699081] (package_uid) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pick_place_demo.dir/build.make:355: pick_place_demo] Error 1\n'}
+[5.699318] (package_uid) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_demo.dir/all] Error 2\n'}
+[5.699471] (package_uid) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.712161] (-) TimerEvent: {}
+[5.812411] (-) TimerEvent: {}
+[5.912726] (-) TimerEvent: {}
+[6.012940] (-) TimerEvent: {}
+[6.113150] (-) TimerEvent: {}
+[6.213406] (-) TimerEvent: {}
+[6.313638] (-) TimerEvent: {}
+[6.413822] (-) TimerEvent: {}
+[6.513989] (-) TimerEvent: {}
+[6.614222] (-) TimerEvent: {}
+[6.714478] (-) TimerEvent: {}
+[6.814698] (-) TimerEvent: {}
+[6.914879] (-) TimerEvent: {}
+[7.015056] (-) TimerEvent: {}
+[7.115225] (-) TimerEvent: {}
+[7.215404] (-) TimerEvent: {}
+[7.315651] (-) TimerEvent: {}
+[7.415916] (-) TimerEvent: {}
+[7.516146] (-) TimerEvent: {}
+[7.616354] (-) TimerEvent: {}
+[7.716541] (-) TimerEvent: {}
+[7.816769] (-) TimerEvent: {}
+[7.917018] (-) TimerEvent: {}
+[8.017277] (-) TimerEvent: {}
+[8.117482] (-) TimerEvent: {}
+[8.217681] (-) TimerEvent: {}
+[8.317935] (-) TimerEvent: {}
+[8.418198] (-) TimerEvent: {}
+[8.518400] (-) TimerEvent: {}
+[8.618626] (-) TimerEvent: {}
+[8.718923] (-) TimerEvent: {}
+[8.819162] (-) TimerEvent: {}
+[8.919402] (-) TimerEvent: {}
+[9.019636] (-) TimerEvent: {}
+[9.119839] (-) TimerEvent: {}
+[9.220090] (-) TimerEvent: {}
+[9.320329] (-) TimerEvent: {}
+[9.420531] (-) TimerEvent: {}
+[9.520778] (-) TimerEvent: {}
+[9.621021] (-) TimerEvent: {}
+[9.721228] (-) TimerEvent: {}
+[9.821440] (-) TimerEvent: {}
+[9.921664] (-) TimerEvent: {}
+[10.021898] (-) TimerEvent: {}
+[10.122127] (-) TimerEvent: {}
+[10.222348] (-) TimerEvent: {}
+[10.322616] (-) TimerEvent: {}
+[10.422927] (-) TimerEvent: {}
+[10.523220] (-) TimerEvent: {}
+[10.623489] (-) TimerEvent: {}
+[10.723733] (-) TimerEvent: {}
+[10.823954] (-) TimerEvent: {}
+[10.924181] (-) TimerEvent: {}
+[11.024432] (-) TimerEvent: {}
+[11.124668] (-) TimerEvent: {}
+[11.224937] (-) TimerEvent: {}
+[11.325169] (-) TimerEvent: {}
+[11.425374] (-) TimerEvent: {}
+[11.525602] (-) TimerEvent: {}
+[11.625836] (-) TimerEvent: {}
+[11.726073] (-) TimerEvent: {}
+[11.826322] (-) TimerEvent: {}
+[11.926553] (-) TimerEvent: {}
+[12.026808] (-) TimerEvent: {}
+[12.127054] (-) TimerEvent: {}
+[12.227292] (-) TimerEvent: {}
+[12.327547] (-) TimerEvent: {}
+[12.427788] (-) TimerEvent: {}
+[12.528023] (-) TimerEvent: {}
+[12.628278] (-) TimerEvent: {}
+[12.728578] (-) TimerEvent: {}
+[12.828850] (-) TimerEvent: {}
+[12.929081] (-) TimerEvent: {}
+[13.029313] (-) TimerEvent: {}
+[13.129555] (-) TimerEvent: {}
+[13.229783] (-) TimerEvent: {}
+[13.329959] (-) TimerEvent: {}
+[13.430152] (-) TimerEvent: {}
+[13.530328] (-) TimerEvent: {}
+[13.630536] (-) TimerEvent: {}
+[13.730785] (-) TimerEvent: {}
+[13.830980] (-) TimerEvent: {}
+[13.931254] (-) TimerEvent: {}
+[14.031485] (-) TimerEvent: {}
+[14.131726] (-) TimerEvent: {}
+[14.231935] (-) TimerEvent: {}
+[14.332127] (-) TimerEvent: {}
+[14.432333] (-) TimerEvent: {}
+[14.532551] (-) TimerEvent: {}
+[14.632692] (-) TimerEvent: {}
+[14.732858] (-) TimerEvent: {}
+[14.833023] (-) TimerEvent: {}
+[14.933245] (-) TimerEvent: {}
+[15.033493] (-) TimerEvent: {}
+[15.133792] (-) TimerEvent: {}
+[15.234051] (-) TimerEvent: {}
+[15.334252] (-) TimerEvent: {}
+[15.434493] (-) TimerEvent: {}
+[15.534763] (-) TimerEvent: {}
+[15.634950] (-) TimerEvent: {}
+[15.735106] (-) TimerEvent: {}
+[15.835285] (-) TimerEvent: {}
+[15.935527] (-) TimerEvent: {}
+[16.035729] (-) TimerEvent: {}
+[16.135884] (-) TimerEvent: {}
+[16.236081] (-) TimerEvent: {}
+[16.336284] (-) TimerEvent: {}
+[16.436543] (-) TimerEvent: {}
+[16.536783] (-) TimerEvent: {}
+[16.636992] (-) TimerEvent: {}
+[16.737176] (-) TimerEvent: {}
+[16.837417] (-) TimerEvent: {}
+[16.937616] (-) TimerEvent: {}
+[17.037783] (-) TimerEvent: {}
+[17.137964] (-) TimerEvent: {}
+[17.238155] (-) TimerEvent: {}
+[17.338377] (-) TimerEvent: {}
+[17.438620] (-) TimerEvent: {}
+[17.538845] (-) TimerEvent: {}
+[17.639054] (-) TimerEvent: {}
+[17.739258] (-) TimerEvent: {}
+[17.839449] (-) TimerEvent: {}
+[17.939644] (-) TimerEvent: {}
+[18.039871] (-) TimerEvent: {}
+[18.140074] (-) TimerEvent: {}
+[18.240310] (-) TimerEvent: {}
+[18.340506] (-) TimerEvent: {}
+[18.440719] (-) TimerEvent: {}
+[18.540924] (-) TimerEvent: {}
+[18.641099] (-) TimerEvent: {}
+[18.741277] (-) TimerEvent: {}
+[18.841435] (-) TimerEvent: {}
+[18.941621] (-) TimerEvent: {}
+[19.041793] (-) TimerEvent: {}
+[19.141954] (-) TimerEvent: {}
+[19.242131] (-) TimerEvent: {}
+[19.342327] (-) TimerEvent: {}
+[19.442504] (-) TimerEvent: {}
+[19.542695] (-) TimerEvent: {}
+[19.642876] (-) TimerEvent: {}
+[19.743066] (-) TimerEvent: {}
+[19.843260] (-) TimerEvent: {}
+[19.943468] (-) TimerEvent: {}
+[20.043693] (-) TimerEvent: {}
+[20.143953] (-) TimerEvent: {}
+[20.244202] (-) TimerEvent: {}
+[20.344432] (-) TimerEvent: {}
+[20.444671] (-) TimerEvent: {}
+[20.544942] (-) TimerEvent: {}
+[20.645187] (-) TimerEvent: {}
+[20.745418] (-) TimerEvent: {}
+[20.845647] (-) TimerEvent: {}
+[20.945886] (-) TimerEvent: {}
+[21.046119] (-) TimerEvent: {}
+[21.146327] (-) TimerEvent: {}
+[21.246527] (-) TimerEvent: {}
+[21.346755] (-) TimerEvent: {}
+[21.446952] (-) TimerEvent: {}
+[21.547116] (-) TimerEvent: {}
+[21.647297] (-) TimerEvent: {}
+[21.747510] (-) TimerEvent: {}
+[21.847721] (-) TimerEvent: {}
+[21.947891] (-) TimerEvent: {}
+[22.048068] (-) TimerEvent: {}
+[22.148239] (-) TimerEvent: {}
+[22.248407] (-) TimerEvent: {}
+[22.348577] (-) TimerEvent: {}
+[22.448765] (-) TimerEvent: {}
+[22.548953] (-) TimerEvent: {}
+[22.649155] (-) TimerEvent: {}
+[22.749401] (-) TimerEvent: {}
+[22.849659] (-) TimerEvent: {}
+[22.949888] (-) TimerEvent: {}
+[23.050121] (-) TimerEvent: {}
+[23.150367] (-) TimerEvent: {}
+[23.250624] (-) TimerEvent: {}
+[23.350867] (-) TimerEvent: {}
+[23.451096] (-) TimerEvent: {}
+[23.551368] (-) TimerEvent: {}
+[23.651569] (-) TimerEvent: {}
+[23.751797] (-) TimerEvent: {}
+[23.852032] (-) TimerEvent: {}
+[23.952312] (-) TimerEvent: {}
+[24.052577] (-) TimerEvent: {}
+[24.152767] (-) TimerEvent: {}
+[24.252980] (-) TimerEvent: {}
+[24.353200] (-) TimerEvent: {}
+[24.453379] (-) TimerEvent: {}
+[24.553627] (-) TimerEvent: {}
+[24.653855] (-) TimerEvent: {}
+[24.754125] (-) TimerEvent: {}
+[24.854395] (-) TimerEvent: {}
+[24.954636] (-) TimerEvent: {}
+[25.054880] (-) TimerEvent: {}
+[25.155161] (-) TimerEvent: {}
+[25.255441] (-) TimerEvent: {}
+[25.355699] (-) TimerEvent: {}
+[25.455984] (-) TimerEvent: {}
+[25.556257] (-) TimerEvent: {}
+[25.656526] (-) TimerEvent: {}
+[25.756792] (-) TimerEvent: {}
+[25.857041] (-) TimerEvent: {}
+[25.957252] (-) TimerEvent: {}
+[26.057455] (-) TimerEvent: {}
+[26.157692] (-) TimerEvent: {}
+[26.257921] (-) TimerEvent: {}
+[26.358163] (-) TimerEvent: {}
+[26.458377] (-) TimerEvent: {}
+[26.558603] (-) TimerEvent: {}
+[26.658800] (-) TimerEvent: {}
+[26.759012] (-) TimerEvent: {}
+[26.859243] (-) TimerEvent: {}
+[26.959458] (-) TimerEvent: {}
+[27.059704] (-) TimerEvent: {}
+[27.159951] (-) TimerEvent: {}
+[27.260205] (-) TimerEvent: {}
+[27.360555] (-) TimerEvent: {}
+[27.460824] (-) TimerEvent: {}
+[27.561055] (-) TimerEvent: {}
+[27.661262] (-) TimerEvent: {}
+[27.761505] (-) TimerEvent: {}
+[27.861787] (-) TimerEvent: {}
+[27.962047] (-) TimerEvent: {}
+[28.062324] (-) TimerEvent: {}
+[28.162587] (-) TimerEvent: {}
+[28.262823] (-) TimerEvent: {}
+[28.363046] (-) TimerEvent: {}
+[28.463259] (-) TimerEvent: {}
+[28.563502] (-) TimerEvent: {}
+[28.663748] (-) TimerEvent: {}
+[28.763978] (-) TimerEvent: {}
+[28.864209] (-) TimerEvent: {}
+[28.964452] (-) TimerEvent: {}
+[29.064675] (-) TimerEvent: {}
+[29.164889] (-) TimerEvent: {}
+[29.265072] (-) TimerEvent: {}
+[29.365272] (-) TimerEvent: {}
+[29.465472] (-) TimerEvent: {}
+[29.565670] (-) TimerEvent: {}
+[29.665844] (-) TimerEvent: {}
+[29.766084] (-) TimerEvent: {}
+[29.866321] (-) TimerEvent: {}
+[29.966538] (-) TimerEvent: {}
+[30.007863] (package_uid) CommandEnded: {'returncode': 2}
+[30.013828] (package_uid) JobEnded: {'identifier': 'package_uid', 'rc': 2}
+[30.024592] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+pick_place_demo:
+  ros__parameters:
+    home_joints: [0.0, -0.785, 0.0, -2.356, 0.0, 1.571, 0.785]
+    goal1_joints: [0.55, -0.95, 0.35, -2.10, 0.20, 1.75, 1.10]
+    goal2_joints: [-0.60, -0.90, -0.30, -2.05, -0.10, 1.80, -0.80]
+    hand_open: [0.04, 0.04]
+    hand_closed: [0.00, 0.00]
+    pause_seconds: 1.0

@@ -1,0 +1,2 @@
+Invoking command in '/home/shanthosh/Downloads/Project 4/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/build/package_uid -- -j12 -l12
+Invoked command in '/home/shanthosh/Downloads/Project 4/build/package_uid' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/build/package_uid -- -j12 -l12

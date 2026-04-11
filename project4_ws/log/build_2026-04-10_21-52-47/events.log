@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000439] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000552] (package_uid) JobQueued: {'identifier': 'package_uid', 'dependencies': OrderedDict()}
+[0.000569] (package_uid) JobStarted: {'identifier': 'package_uid'}
+[0.099676] (-) TimerEvent: {}
+[0.199883] (-) TimerEvent: {}
+[0.300099] (-) TimerEvent: {}
+[0.400316] (-) TimerEvent: {}
+[0.500502] (-) TimerEvent: {}
+[0.600689] (-) TimerEvent: {}
+[0.700891] (-) TimerEvent: {}
+[0.801128] (-) TimerEvent: {}
+[0.901312] (-) TimerEvent: {}
+[1.001531] (-) TimerEvent: {}
+[1.101743] (-) TimerEvent: {}
+[1.201925] (-) TimerEvent: {}
+[1.302114] (-) TimerEvent: {}
+[1.402308] (-) TimerEvent: {}
+[1.502505] (-) TimerEvent: {}
+[1.602676] (-) TimerEvent: {}
+[1.702881] (-) TimerEvent: {}
+[1.803089] (-) TimerEvent: {}
+[1.903300] (-) TimerEvent: {}
+[2.003561] (-) TimerEvent: {}
+[2.103771] (-) TimerEvent: {}
+[2.203998] (-) TimerEvent: {}
+[2.304223] (-) TimerEvent: {}
+[2.404532] (-) TimerEvent: {}
+[2.504767] (-) TimerEvent: {}
+[2.604997] (-) TimerEvent: {}
+[2.705227] (-) TimerEvent: {}
+[2.805447] (-) TimerEvent: {}
+[2.905668] (-) TimerEvent: {}
+[3.005869] (-) TimerEvent: {}
+[3.106061] (-) TimerEvent: {}
+[3.206260] (-) TimerEvent: {}
+[3.306519] (-) TimerEvent: {}
+[3.406726] (-) TimerEvent: {}
+[3.506959] (-) TimerEvent: {}
+[3.607183] (-) TimerEvent: {}
+[3.707400] (-) TimerEvent: {}
+[3.807612] (-) TimerEvent: {}
+[3.907824] (-) TimerEvent: {}
+[4.008038] (-) TimerEvent: {}
+[4.108262] (-) TimerEvent: {}
+[4.208463] (-) TimerEvent: {}
+[4.308701] (-) TimerEvent: {}
+[4.408897] (-) TimerEvent: {}
+[4.509120] (-) TimerEvent: {}
+[4.609318] (-) TimerEvent: {}
+[4.709538] (-) TimerEvent: {}
+[4.809764] (-) TimerEvent: {}
+[4.909961] (-) TimerEvent: {}
+[5.010160] (-) TimerEvent: {}
+[5.110392] (-) TimerEvent: {}
+[5.210639] (-) TimerEvent: {}
+[5.310866] (-) TimerEvent: {}
+[5.411057] (-) TimerEvent: {}
+[5.511271] (-) TimerEvent: {}
+[5.611496] (-) TimerEvent: {}
+[5.711735] (-) TimerEvent: {}
+[5.811974] (-) TimerEvent: {}
+[5.912203] (-) TimerEvent: {}
+[6.012449] (-) TimerEvent: {}
+[6.112674] (-) TimerEvent: {}
+[6.212905] (-) TimerEvent: {}
+[6.313112] (-) TimerEvent: {}
+[6.413292] (-) TimerEvent: {}
+[6.513502] (-) TimerEvent: {}
+[6.613704] (-) TimerEvent: {}
+[6.713920] (-) TimerEvent: {}
+[6.814099] (-) TimerEvent: {}
+[6.914317] (-) TimerEvent: {}
+[7.014510] (-) TimerEvent: {}
+[7.114730] (-) TimerEvent: {}
+[7.214972] (-) TimerEvent: {}
+[7.315199] (-) TimerEvent: {}
+[7.415409] (-) TimerEvent: {}
+[7.515624] (-) TimerEvent: {}
+[7.615813] (-) TimerEvent: {}
+[7.716007] (-) TimerEvent: {}
+[7.816283] (-) TimerEvent: {}
+[7.916547] (-) TimerEvent: {}
+[8.016821] (-) TimerEvent: {}
+[8.117036] (-) TimerEvent: {}
+[8.217223] (-) TimerEvent: {}
+[8.317412] (-) TimerEvent: {}
+[8.417627] (-) TimerEvent: {}
+[8.517834] (-) TimerEvent: {}
+[8.618042] (-) TimerEvent: {}
+[8.718302] (-) TimerEvent: {}
+[8.818535] (-) TimerEvent: {}
+[8.918750] (-) TimerEvent: {}
+[9.018960] (-) TimerEvent: {}
+[9.119182] (-) TimerEvent: {}
+[9.219425] (-) TimerEvent: {}
+[9.319635] (-) TimerEvent: {}
+[9.419812] (-) TimerEvent: {}
+[9.520004] (-) TimerEvent: {}
+[9.620196] (-) TimerEvent: {}
+[9.720398] (-) TimerEvent: {}
+[9.820625] (-) TimerEvent: {}
+[9.920879] (-) TimerEvent: {}
+[10.021102] (-) TimerEvent: {}
+[10.121294] (-) TimerEvent: {}
+[10.221503] (-) TimerEvent: {}
+[10.321715] (-) TimerEvent: {}
+[10.421902] (-) TimerEvent: {}
+[10.522078] (-) TimerEvent: {}
+[10.622265] (-) TimerEvent: {}
+[10.722483] (-) TimerEvent: {}
+[10.822724] (-) TimerEvent: {}
+[10.922922] (-) TimerEvent: {}
+[11.023100] (-) TimerEvent: {}
+[11.123281] (-) TimerEvent: {}
+[11.223501] (-) TimerEvent: {}
+[11.323730] (-) TimerEvent: {}
+[11.423963] (-) TimerEvent: {}
+[11.524182] (-) TimerEvent: {}
+[11.624422] (-) TimerEvent: {}
+[11.724633] (-) TimerEvent: {}
+[11.824837] (-) TimerEvent: {}
+[11.925065] (-) TimerEvent: {}
+[12.025303] (-) TimerEvent: {}
+[12.125510] (-) TimerEvent: {}
+[12.225740] (-) TimerEvent: {}
+[12.325965] (-) TimerEvent: {}
+[12.426185] (-) TimerEvent: {}
+[12.526383] (-) TimerEvent: {}
+[12.626613] (-) TimerEvent: {}
+[12.726807] (-) TimerEvent: {}
+[12.826987] (-) TimerEvent: {}
+[12.927157] (-) TimerEvent: {}
+[13.027350] (-) TimerEvent: {}
+[13.127508] (-) TimerEvent: {}
+[13.227731] (-) TimerEvent: {}
+[13.327988] (-) TimerEvent: {}
+[13.428177] (-) TimerEvent: {}
+[13.528384] (-) TimerEvent: {}
+[13.628586] (-) TimerEvent: {}
+[13.728825] (-) TimerEvent: {}
+[13.829022] (-) TimerEvent: {}
+[13.929240] (-) TimerEvent: {}
+[14.029471] (-) TimerEvent: {}
+[14.129687] (-) TimerEvent: {}
+[14.229895] (-) TimerEvent: {}
+[14.330124] (-) TimerEvent: {}
+[14.430322] (-) TimerEvent: {}
+[14.530514] (-) TimerEvent: {}
+[14.630739] (-) TimerEvent: {}
+[14.730940] (-) TimerEvent: {}
+[14.831164] (-) TimerEvent: {}
+[14.931394] (-) TimerEvent: {}
+[15.031619] (-) TimerEvent: {}
+[15.131854] (-) TimerEvent: {}
+[15.232119] (-) TimerEvent: {}
+[15.332310] (-) TimerEvent: {}
+[15.432545] (-) TimerEvent: {}
+[15.532758] (-) TimerEvent: {}
+[15.632958] (-) TimerEvent: {}
+[15.733135] (-) TimerEvent: {}
+[15.833359] (-) TimerEvent: {}
+[15.933582] (-) TimerEvent: {}
+[16.033788] (-) TimerEvent: {}
+[16.134203] (-) TimerEvent: {}
+[16.234409] (-) TimerEvent: {}
+[16.334627] (-) TimerEvent: {}
+[16.434824] (-) TimerEvent: {}
+[16.535005] (-) TimerEvent: {}
+[16.635226] (-) TimerEvent: {}
+[16.735423] (-) TimerEvent: {}
+[16.835621] (-) TimerEvent: {}
+[16.935842] (-) TimerEvent: {}
+[17.036066] (-) TimerEvent: {}
+[17.136262] (-) TimerEvent: {}
+[17.236463] (-) TimerEvent: {}
+[17.336657] (-) TimerEvent: {}
+[17.436868] (-) TimerEvent: {}
+[17.537068] (-) TimerEvent: {}
+[17.637307] (-) TimerEvent: {}
+[17.737532] (-) TimerEvent: {}
+[17.837747] (-) TimerEvent: {}
+[17.937963] (-) TimerEvent: {}
+[18.038220] (-) TimerEvent: {}
+[18.138413] (-) TimerEvent: {}
+[18.238636] (-) TimerEvent: {}
+[18.338855] (-) TimerEvent: {}
+[18.439064] (-) TimerEvent: {}
+[18.539257] (-) TimerEvent: {}
+[18.639457] (-) TimerEvent: {}
+[18.739696] (-) TimerEvent: {}
+[18.839947] (-) TimerEvent: {}
+[18.940190] (-) TimerEvent: {}
+[19.040390] (-) TimerEvent: {}
+[19.140609] (-) TimerEvent: {}
+[19.240816] (-) TimerEvent: {}
+[19.341001] (-) TimerEvent: {}
+[19.441187] (-) TimerEvent: {}
+[19.541385] (-) TimerEvent: {}
+[19.641607] (-) TimerEvent: {}
+[19.741793] (-) TimerEvent: {}
+[19.841968] (-) TimerEvent: {}
+[19.942158] (-) TimerEvent: {}
+[20.042333] (-) TimerEvent: {}
+[20.142501] (-) TimerEvent: {}
+[20.242681] (-) TimerEvent: {}
+[20.342882] (-) TimerEvent: {}
+[20.443101] (-) TimerEvent: {}
+[20.543298] (-) TimerEvent: {}
+[20.643506] (-) TimerEvent: {}
+[20.743698] (-) TimerEvent: {}
+[20.843904] (-) TimerEvent: {}
+[20.944134] (-) TimerEvent: {}
+[21.044379] (-) TimerEvent: {}
+[21.144607] (-) TimerEvent: {}
+[21.244814] (-) TimerEvent: {}
+[21.345021] (-) TimerEvent: {}
+[21.445237] (-) TimerEvent: {}
+[21.545447] (-) TimerEvent: {}
+[21.645672] (-) TimerEvent: {}
+[21.745934] (-) TimerEvent: {}
+[21.846217] (-) TimerEvent: {}
+[21.946444] (-) TimerEvent: {}
+[22.046667] (-) TimerEvent: {}
+[22.146965] (-) TimerEvent: {}
+[22.247181] (-) TimerEvent: {}
+[22.347398] (-) TimerEvent: {}
+[22.447619] (-) TimerEvent: {}
+[22.547832] (-) TimerEvent: {}
+[22.648080] (-) TimerEvent: {}
+[22.748345] (-) TimerEvent: {}
+[22.848618] (-) TimerEvent: {}
+[22.948828] (-) TimerEvent: {}
+[23.048986] (-) TimerEvent: {}
+[23.149199] (-) TimerEvent: {}
+[23.249423] (-) TimerEvent: {}
+[23.349652] (-) TimerEvent: {}
+[23.449888] (-) TimerEvent: {}
+[23.550111] (-) TimerEvent: {}
+[23.650371] (-) TimerEvent: {}
+[23.750625] (-) TimerEvent: {}
+[23.850868] (-) TimerEvent: {}
+[23.951138] (-) TimerEvent: {}
+[24.051414] (-) TimerEvent: {}
+[24.151672] (-) TimerEvent: {}
+[24.251995] (-) TimerEvent: {}
+[24.352260] (-) TimerEvent: {}
+[24.452481] (-) TimerEvent: {}
+[24.552706] (-) TimerEvent: {}
+[24.652921] (-) TimerEvent: {}
+[24.753122] (-) TimerEvent: {}
+[24.853382] (-) TimerEvent: {}
+[24.953614] (-) TimerEvent: {}
+[25.053827] (-) TimerEvent: {}
+[25.154056] (-) TimerEvent: {}
+[25.254286] (-) TimerEvent: {}
+[25.354538] (-) TimerEvent: {}
+[25.454759] (-) TimerEvent: {}
+[25.554975] (-) TimerEvent: {}
+[25.655191] (-) TimerEvent: {}
+[25.755421] (-) TimerEvent: {}
+[25.855688] (-) TimerEvent: {}
+[25.955896] (-) TimerEvent: {}
+[26.056089] (-) TimerEvent: {}
+[26.156300] (-) TimerEvent: {}
+[26.256598] (-) TimerEvent: {}
+[26.356793] (-) TimerEvent: {}
+[26.456967] (-) TimerEvent: {}
+[26.557166] (-) TimerEvent: {}
+[26.657353] (-) TimerEvent: {}
+[26.757554] (-) TimerEvent: {}
+[26.857780] (-) TimerEvent: {}
+[26.957940] (-) TimerEvent: {}
+[27.058146] (-) TimerEvent: {}
+[27.158356] (-) TimerEvent: {}
+[27.258562] (-) TimerEvent: {}
+[27.358761] (-) TimerEvent: {}
+[27.458954] (-) TimerEvent: {}
+[27.559144] (-) TimerEvent: {}
+[27.659336] (-) TimerEvent: {}
+[27.759549] (-) TimerEvent: {}
+[27.859755] (-) TimerEvent: {}
+[27.959950] (-) TimerEvent: {}
+[28.060141] (-) TimerEvent: {}
+[28.160336] (-) TimerEvent: {}
+[28.260520] (-) TimerEvent: {}
+[28.360736] (-) TimerEvent: {}
+[28.460931] (-) TimerEvent: {}
+[28.561147] (-) TimerEvent: {}
+[28.661345] (-) TimerEvent: {}
+[28.761557] (-) TimerEvent: {}
+[28.861799] (-) TimerEvent: {}
+[28.961991] (-) TimerEvent: {}
+[29.062198] (-) TimerEvent: {}
+[29.162386] (-) TimerEvent: {}
+[29.262581] (-) TimerEvent: {}
+[29.362800] (-) TimerEvent: {}
+[29.463014] (-) TimerEvent: {}
+[29.563200] (-) TimerEvent: {}
+[29.663388] (-) TimerEvent: {}
+[29.763591] (-) TimerEvent: {}
+[29.863790] (-) TimerEvent: {}
+[29.963997] (-) TimerEvent: {}
+[30.031293] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'cmake'}
+[30.032192] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'build'}
+[30.033226] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', '--', '-j12', '-l12'], 'cwd': '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.064108] (-) TimerEvent: {}
+[30.097545] (package_uid) StdoutLine: {'line': b'[100%] Built target pick_place_demo\n'}
+[30.107546] (package_uid) CommandEnded: {'returncode': 0}
+[30.108056] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'install'}
+[30.115591] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'], 'cwd': '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.123365] (package_uid) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.123680] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/lib/package_uid/pick_place_demo\n'}
+[30.124033] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config\n'}
+[30.124170] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config/pick_place_demo.yaml\n'}
+[30.124234] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch\n'}
+[30.124386] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/__pycache__\n'}
+[30.124447] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/__pycache__/pick_place_demo.launch.cpython-310.pyc\n'}
+[30.124501] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/pick_place_demo.launch.py\n'}
+[30.124647] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/README.md\n'}
+[30.124694] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml\n'}
+[30.124804] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/package_run_dependencies/package_uid\n'}
+[30.124891] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/parent_prefix_path/package_uid\n'}
+[30.124935] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.sh\n'}
+[30.125035] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.dsv\n'}
+[30.125149] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.sh\n'}
+[30.125193] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.dsv\n'}
+[30.125325] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.bash\n'}
+[30.125371] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.sh\n'}
+[30.125415] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.zsh\n'}
+[30.125521] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.dsv\n'}
+[30.125562] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.dsv\n'}
+[30.125777] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/packages/package_uid\n'}
+[30.125901] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig.cmake\n'}
+[30.125954] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig-version.cmake\n'}
+[30.126076] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml\n'}
+[30.127595] (package_uid) CommandEnded: {'returncode': 0}
+[30.140281] (package_uid) JobEnded: {'identifier': 'package_uid', 'rc': 0}
+[30.140765] (-) EventReactorShutdown: {}

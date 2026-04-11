@@ -1,0 +1,30 @@
+[30.034s] Invoking command in '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid -- -j12 -l12
+[30.097s] [100%] Built target pick_place_demo
+[30.107s] Invoked command in '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid -- -j12 -l12
+[30.115s] Invoking command in '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid
+[30.123s] -- Install configuration: ""
+[30.123s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/lib/package_uid/pick_place_demo
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config/pick_place_demo.yaml
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/__pycache__
+[30.124s] -- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/__pycache__/pick_place_demo.launch.cpython-310.pyc
+[30.124s] -- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/pick_place_demo.launch.py
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/README.md
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/package_run_dependencies/package_uid
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/parent_prefix_path/package_uid
+[30.124s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.sh
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.dsv
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.sh
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.dsv
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.bash
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.sh
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.zsh
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.dsv
+[30.125s] -- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.dsv
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/packages/package_uid
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig.cmake
+[30.125s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig-version.cmake
+[30.126s] -- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml
+[30.127s] Invoked command in '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid

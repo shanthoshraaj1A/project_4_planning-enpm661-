@@ -1,0 +1,143 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'package_uid', '--cmake-clean-cache', '--cmake-args', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3', '-DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['package_uid'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3', '-DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=True, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x791e95c43790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x791e95d7cdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x791e95d7cdf0>>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shanthosh/Downloads/Project 4'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_uid) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package_uid' with type 'ros.ament_cmake' and name 'package_uid'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.195s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3', '-DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3']'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_clean_cache' from command line to 'True'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'package_uid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'package_uid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shanthosh/Downloads/Project 4/build/package_uid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3', '-DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3'], 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shanthosh/Downloads/Project 4/install/package_uid', 'merge_install': False, 'path': '/home/shanthosh/Downloads/Project 4/src/package_uid', 'symlink_install': False, 'test_result_base': None}
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shanthosh/Downloads/Project 4/src/package_uid' with build type 'ament_cmake'
+[0.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shanthosh/Downloads/Project 4/src/package_uid'
+[0.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shanthosh/Downloads/Project 4/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shanthosh/Downloads/Project 4/src/package_uid -DPython3_EXECUTABLE=/usr/bin/python3 -DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE -DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3 -DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3 -DCMAKE_INSTALL_PREFIX=/home/shanthosh/Downloads/Project 4/install/package_uid
+[1.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shanthosh/Downloads/Project 4/build/package_uid' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shanthosh/Downloads/Project 4/src/package_uid -DPython3_EXECUTABLE=/usr/bin/python3 -DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE -DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3 -DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3 -DCMAKE_INSTALL_PREFIX=/home/shanthosh/Downloads/Project 4/install/package_uid
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shanthosh/Downloads/Project 4/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/build/package_uid -- -j12 -l12
+[7.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shanthosh/Downloads/Project 4/build/package_uid' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shanthosh/Downloads/Project 4/build/package_uid -- -j12 -l12
+[7.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shanthosh/Downloads/Project 4/build/package_uid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shanthosh/Downloads/Project 4/build/package_uid
+[30.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_uid)
+[30.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shanthosh/Downloads/Project 4/build/package_uid' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shanthosh/Downloads/Project 4/build/package_uid
+[30.247s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid' for CMake module files
+[30.248s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid' for CMake config files
+[30.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_uid', 'cmake_prefix_path')
+[30.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.ps1'
+[30.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.dsv'
+[30.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.sh'
+[30.250s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib'
+[30.250s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/bin'
+[30.250s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib/pkgconfig/package_uid.pc'
+[30.251s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib/python3.10/site-packages'
+[30.251s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/bin'
+[30.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.ps1'
+[30.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.dsv'
+[30.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.sh'
+[30.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.bash'
+[30.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.zsh'
+[30.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shanthosh/Downloads/Project 4/install/package_uid/share/colcon-core/packages/package_uid)
+[30.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_uid)
+[30.253s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid' for CMake module files
+[30.254s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid' for CMake config files
+[30.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_uid', 'cmake_prefix_path')
+[30.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.ps1'
+[30.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.dsv'
+[30.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/hook/cmake_prefix_path.sh'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/bin'
+[30.261s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib/pkgconfig/package_uid.pc'
+[30.261s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/lib/python3.10/site-packages'
+[30.261s] Level 1:colcon.colcon_core.environment:checking '/home/shanthosh/Downloads/Project 4/install/package_uid/bin'
+[30.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.ps1'
+[30.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.dsv'
+[30.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.sh'
+[30.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.bash'
+[30.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.zsh'
+[30.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shanthosh/Downloads/Project 4/install/package_uid/share/colcon-core/packages/package_uid)
+[30.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.264s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.268s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.268s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[30.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shanthosh/Downloads/Project 4/install/local_setup.ps1'
+[30.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shanthosh/Downloads/Project 4/install/_local_setup_util_ps1.py'
+[30.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shanthosh/Downloads/Project 4/install/setup.ps1'
+[30.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shanthosh/Downloads/Project 4/install/local_setup.sh'
+[30.272s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shanthosh/Downloads/Project 4/install/_local_setup_util_sh.py'
+[30.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shanthosh/Downloads/Project 4/install/setup.sh'
+[30.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shanthosh/Downloads/Project 4/install/local_setup.bash'
+[30.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shanthosh/Downloads/Project 4/install/setup.bash'
+[30.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shanthosh/Downloads/Project 4/install/local_setup.zsh'
+[30.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shanthosh/Downloads/Project 4/install/setup.zsh'

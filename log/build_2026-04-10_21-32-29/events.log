@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (package_uid) JobQueued: {'identifier': 'package_uid', 'dependencies': OrderedDict()}
+[0.000225] (package_uid) JobStarted: {'identifier': 'package_uid'}
+[0.006543] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'cmake'}
+[0.006763] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '/home/shanthosh/Downloads/Project 4/src/package_uid', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_IGNORE_PREFIX_PATH=/home/shanthosh/miniconda3', '-DCMAKE_IGNORE_PATH=/home/shanthosh/miniconda3', '-DCMAKE_INSTALL_PREFIX=/home/shanthosh/Downloads/Project 4/install/package_uid'], 'cwd': '/home/shanthosh/Downloads/Project 4/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052448] (package_uid) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.095785] (package_uid) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099219] (-) TimerEvent: {}
+[0.100900] (package_uid) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.163541] (package_uid) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.168085] (package_uid) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.168251] (package_uid) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.168527] (package_uid) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.170468] (package_uid) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199323] (-) TimerEvent: {}
+[0.238529] (package_uid) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.243271] (package_uid) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.243456] (package_uid) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.243765] (package_uid) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.245675] (package_uid) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299445] (-) TimerEvent: {}
+[0.349773] (package_uid) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399542] (-) TimerEvent: {}
+[0.429253] (package_uid) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.457937] (package_uid) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.461441] (package_uid) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.467169] (package_uid) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.474949] (package_uid) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.485395] (package_uid) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499645] (-) TimerEvent: {}
+[0.514631] (package_uid) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.516515] (package_uid) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.594561] (package_uid) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.599751] (-) TimerEvent: {}
+[0.615183] (package_uid) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.646884] (package_uid) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.652796] (package_uid) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.699865] (-) TimerEvent: {}
+[0.714761] (package_uid) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.715183] (package_uid) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.782078] (package_uid) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.782760] (package_uid) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.799948] (-) TimerEvent: {}
+[0.816450] (package_uid) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.833079] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.900113] (-) TimerEvent: {}
+[0.942405] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.972106] (package_uid) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.1 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.991760] (package_uid) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.000200] (-) TimerEvent: {}
+[1.007829] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.095637] (package_uid) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.100287] (-) TimerEvent: {}
+[1.120645] (package_uid) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.120741] (package_uid) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.200425] (-) TimerEvent: {}
+[1.209539] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.231590] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.245761] (package_uid) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.300511] (-) TimerEvent: {}
+[1.312602] (package_uid) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.333283] (package_uid) StdoutLine: {'line': b'-- Generating done\n'}
+[1.334452] (package_uid) StderrLine: {'line': b'CMake Warning:\n'}
+[1.334623] (package_uid) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.334726] (package_uid) StderrLine: {'line': b'\n'}
+[1.334813] (package_uid) StderrLine: {'line': b'    CMAKE_IGNORE_PREFIX_PATH\n'}
+[1.334852] (package_uid) StderrLine: {'line': b'\n'}
+[1.334879] (package_uid) StderrLine: {'line': b'\n'}
+[1.337816] (package_uid) StdoutLine: {'line': b'-- Build files have been written to: /home/shanthosh/Downloads/Project 4/build/package_uid\n'}
+[1.347762] (package_uid) CommandEnded: {'returncode': 0}
+[1.348396] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'build'}
+[1.349241] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shanthosh/Downloads/Project 4/build/package_uid', '--', '-j12', '-l12'], 'cwd': '/home/shanthosh/Downloads/Project 4/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.398658] (package_uid) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pick_place_demo\n'}
+[1.400573] (-) TimerEvent: {}
+[1.416303] (package_uid) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pick_place_demo.dir/src/pick_place_demo.cpp.o\n'}
+[1.500755] (-) TimerEvent: {}
+[1.601015] (-) TimerEvent: {}
+[1.701272] (-) TimerEvent: {}
+[1.801473] (-) TimerEvent: {}
+[1.901681] (-) TimerEvent: {}
+[2.001882] (-) TimerEvent: {}
+[2.102078] (-) TimerEvent: {}
+[2.202276] (-) TimerEvent: {}
+[2.302463] (-) TimerEvent: {}
+[2.402676] (-) TimerEvent: {}
+[2.502917] (-) TimerEvent: {}
+[2.603173] (-) TimerEvent: {}
+[2.703426] (-) TimerEvent: {}
+[2.803624] (-) TimerEvent: {}
+[2.903821] (-) TimerEvent: {}
+[3.004012] (-) TimerEvent: {}
+[3.104233] (-) TimerEvent: {}
+[3.204467] (-) TimerEvent: {}
+[3.304665] (-) TimerEvent: {}
+[3.404876] (-) TimerEvent: {}
+[3.505053] (-) TimerEvent: {}
+[3.605260] (-) TimerEvent: {}
+[3.705491] (-) TimerEvent: {}
+[3.805675] (-) TimerEvent: {}
+[3.905891] (-) TimerEvent: {}
+[4.006081] (-) TimerEvent: {}
+[4.106292] (-) TimerEvent: {}
+[4.206559] (-) TimerEvent: {}
+[4.306792] (-) TimerEvent: {}
+[4.407042] (-) TimerEvent: {}
+[4.507266] (-) TimerEvent: {}
+[4.607528] (-) TimerEvent: {}
+[4.707793] (-) TimerEvent: {}
+[4.808032] (-) TimerEvent: {}
+[4.908259] (-) TimerEvent: {}
+[5.008484] (-) TimerEvent: {}
+[5.108735] (-) TimerEvent: {}
+[5.208972] (-) TimerEvent: {}
+[5.309246] (-) TimerEvent: {}
+[5.409502] (-) TimerEvent: {}
+[5.509768] (-) TimerEvent: {}
+[5.610025] (-) TimerEvent: {}
+[5.710251] (-) TimerEvent: {}
+[5.810503] (-) TimerEvent: {}
+[5.910738] (-) TimerEvent: {}
+[6.010966] (-) TimerEvent: {}
+[6.111198] (-) TimerEvent: {}
+[6.211429] (-) TimerEvent: {}
+[6.311662] (-) TimerEvent: {}
+[6.411966] (-) TimerEvent: {}
+[6.512231] (-) TimerEvent: {}
+[6.612484] (-) TimerEvent: {}
+[6.712666] (-) TimerEvent: {}
+[6.725162] (package_uid) StdoutLine: {'line': b'[100%] Linking CXX executable pick_place_demo\n'}
+[6.812832] (-) TimerEvent: {}
+[6.913096] (-) TimerEvent: {}
+[6.966415] (package_uid) StdoutLine: {'line': b'[100%] Built target pick_place_demo\n'}
+[6.978481] (package_uid) CommandEnded: {'returncode': 0}
+[6.979001] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'install'}
+[6.986722] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shanthosh/Downloads/Project 4/build/package_uid'], 'cwd': '/home/shanthosh/Downloads/Project 4/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.993499] (package_uid) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.993684] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/lib/package_uid/pick_place_demo\n'}
+[6.994325] (package_uid) StdoutLine: {'line': b'-- Set runtime path of "/home/shanthosh/Downloads/Project 4/install/package_uid/lib/package_uid/pick_place_demo" to ""\n'}
+[6.994440] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/config\n'}
+[6.994529] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/config/pick_place_demo.yaml\n'}
+[6.994692] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/launch\n'}
+[6.994900] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/launch/pick_place_demo.launch.py\n'}
+[6.995178] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/README.md\n'}
+[6.995333] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.xml\n'}
+[6.995447] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/ament_index/resource_index/package_run_dependencies/package_uid\n'}
+[6.995508] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/ament_index/resource_index/parent_prefix_path/package_uid\n'}
+[6.995540] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/environment/ament_prefix_path.sh\n'}
+[6.995569] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/environment/ament_prefix_path.dsv\n'}
+[6.995601] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/environment/path.sh\n'}
+[6.995672] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/environment/path.dsv\n'}
+[6.995738] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/local_setup.bash\n'}
+[6.995861] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/local_setup.sh\n'}
+[6.995983] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/local_setup.zsh\n'}
+[6.996111] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/local_setup.dsv\n'}
+[6.996226] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.dsv\n'}
+[6.996402] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/ament_index/resource_index/packages/package_uid\n'}
+[6.996551] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/cmake/package_uidConfig.cmake\n'}
+[6.996657] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/cmake/package_uidConfig-version.cmake\n'}
+[6.996782] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/install/package_uid/share/package_uid/package.xml\n'}
+[7.013171] (-) TimerEvent: {}
+[7.113372] (-) TimerEvent: {}
+[7.213622] (-) TimerEvent: {}
+[7.313888] (-) TimerEvent: {}
+[7.414160] (-) TimerEvent: {}
+[7.514395] (-) TimerEvent: {}
+[7.614650] (-) TimerEvent: {}
+[7.714937] (-) TimerEvent: {}
+[7.815170] (-) TimerEvent: {}
+[7.915399] (-) TimerEvent: {}
+[8.015631] (-) TimerEvent: {}
+[8.115870] (-) TimerEvent: {}
+[8.216086] (-) TimerEvent: {}
+[8.316314] (-) TimerEvent: {}
+[8.416575] (-) TimerEvent: {}
+[8.516822] (-) TimerEvent: {}
+[8.617076] (-) TimerEvent: {}
+[8.717359] (-) TimerEvent: {}
+[8.817612] (-) TimerEvent: {}
+[8.917809] (-) TimerEvent: {}
+[9.018057] (-) TimerEvent: {}
+[9.118269] (-) TimerEvent: {}
+[9.218517] (-) TimerEvent: {}
+[9.318760] (-) TimerEvent: {}
+[9.418943] (-) TimerEvent: {}
+[9.519104] (-) TimerEvent: {}
+[9.619319] (-) TimerEvent: {}
+[9.719591] (-) TimerEvent: {}
+[9.819813] (-) TimerEvent: {}
+[9.920001] (-) TimerEvent: {}
+[10.020161] (-) TimerEvent: {}
+[10.120348] (-) TimerEvent: {}
+[10.220598] (-) TimerEvent: {}
+[10.320864] (-) TimerEvent: {}
+[10.421032] (-) TimerEvent: {}
+[10.521188] (-) TimerEvent: {}
+[10.621396] (-) TimerEvent: {}
+[10.721603] (-) TimerEvent: {}
+[10.821791] (-) TimerEvent: {}
+[10.921982] (-) TimerEvent: {}
+[11.022200] (-) TimerEvent: {}
+[11.122423] (-) TimerEvent: {}
+[11.222634] (-) TimerEvent: {}
+[11.322860] (-) TimerEvent: {}
+[11.423039] (-) TimerEvent: {}
+[11.523226] (-) TimerEvent: {}
+[11.623489] (-) TimerEvent: {}
+[11.723708] (-) TimerEvent: {}
+[11.823880] (-) TimerEvent: {}
+[11.924075] (-) TimerEvent: {}
+[12.024280] (-) TimerEvent: {}
+[12.124478] (-) TimerEvent: {}
+[12.224720] (-) TimerEvent: {}
+[12.324933] (-) TimerEvent: {}
+[12.425130] (-) TimerEvent: {}
+[12.525305] (-) TimerEvent: {}
+[12.625506] (-) TimerEvent: {}
+[12.725737] (-) TimerEvent: {}
+[12.825943] (-) TimerEvent: {}
+[12.926125] (-) TimerEvent: {}
+[13.026309] (-) TimerEvent: {}
+[13.126527] (-) TimerEvent: {}
+[13.226787] (-) TimerEvent: {}
+[13.326992] (-) TimerEvent: {}
+[13.427173] (-) TimerEvent: {}
+[13.527353] (-) TimerEvent: {}
+[13.627553] (-) TimerEvent: {}
+[13.727775] (-) TimerEvent: {}
+[13.827969] (-) TimerEvent: {}
+[13.928174] (-) TimerEvent: {}
+[14.028384] (-) TimerEvent: {}
+[14.128597] (-) TimerEvent: {}
+[14.228818] (-) TimerEvent: {}
+[14.328999] (-) TimerEvent: {}
+[14.429165] (-) TimerEvent: {}
+[14.529325] (-) TimerEvent: {}
+[14.629527] (-) TimerEvent: {}
+[14.729741] (-) TimerEvent: {}
+[14.829947] (-) TimerEvent: {}
+[14.930168] (-) TimerEvent: {}
+[15.030437] (-) TimerEvent: {}
+[15.130725] (-) TimerEvent: {}
+[15.230961] (-) TimerEvent: {}
+[15.331138] (-) TimerEvent: {}
+[15.431317] (-) TimerEvent: {}
+[15.531491] (-) TimerEvent: {}
+[15.631667] (-) TimerEvent: {}
+[15.731878] (-) TimerEvent: {}
+[15.832111] (-) TimerEvent: {}
+[15.932361] (-) TimerEvent: {}
+[16.032579] (-) TimerEvent: {}
+[16.132799] (-) TimerEvent: {}
+[16.233013] (-) TimerEvent: {}
+[16.333257] (-) TimerEvent: {}
+[16.433490] (-) TimerEvent: {}
+[16.533735] (-) TimerEvent: {}
+[16.633963] (-) TimerEvent: {}
+[16.734225] (-) TimerEvent: {}
+[16.834497] (-) TimerEvent: {}
+[16.934789] (-) TimerEvent: {}
+[17.035058] (-) TimerEvent: {}
+[17.135255] (-) TimerEvent: {}
+[17.235453] (-) TimerEvent: {}
+[17.335671] (-) TimerEvent: {}
+[17.435925] (-) TimerEvent: {}
+[17.536197] (-) TimerEvent: {}
+[17.636479] (-) TimerEvent: {}
+[17.736859] (-) TimerEvent: {}
+[17.837090] (-) TimerEvent: {}
+[17.937296] (-) TimerEvent: {}
+[18.037540] (-) TimerEvent: {}
+[18.137790] (-) TimerEvent: {}
+[18.238022] (-) TimerEvent: {}
+[18.338207] (-) TimerEvent: {}
+[18.438403] (-) TimerEvent: {}
+[18.538592] (-) TimerEvent: {}
+[18.638803] (-) TimerEvent: {}
+[18.739035] (-) TimerEvent: {}
+[18.839289] (-) TimerEvent: {}
+[18.939532] (-) TimerEvent: {}
+[19.039800] (-) TimerEvent: {}
+[19.140160] (-) TimerEvent: {}
+[19.240377] (-) TimerEvent: {}
+[19.340595] (-) TimerEvent: {}
+[19.440823] (-) TimerEvent: {}
+[19.541085] (-) TimerEvent: {}
+[19.641388] (-) TimerEvent: {}
+[19.741633] (-) TimerEvent: {}
+[19.841862] (-) TimerEvent: {}
+[19.942129] (-) TimerEvent: {}
+[20.042357] (-) TimerEvent: {}
+[20.142600] (-) TimerEvent: {}
+[20.242875] (-) TimerEvent: {}
+[20.343141] (-) TimerEvent: {}
+[20.443367] (-) TimerEvent: {}
+[20.543598] (-) TimerEvent: {}
+[20.643846] (-) TimerEvent: {}
+[20.744062] (-) TimerEvent: {}
+[20.844296] (-) TimerEvent: {}
+[20.944527] (-) TimerEvent: {}
+[21.044781] (-) TimerEvent: {}
+[21.144999] (-) TimerEvent: {}
+[21.245235] (-) TimerEvent: {}
+[21.345461] (-) TimerEvent: {}
+[21.445723] (-) TimerEvent: {}
+[21.545991] (-) TimerEvent: {}
+[21.646290] (-) TimerEvent: {}
+[21.746523] (-) TimerEvent: {}
+[21.846803] (-) TimerEvent: {}
+[21.947036] (-) TimerEvent: {}
+[22.047299] (-) TimerEvent: {}
+[22.147568] (-) TimerEvent: {}
+[22.247842] (-) TimerEvent: {}
+[22.348121] (-) TimerEvent: {}
+[22.448380] (-) TimerEvent: {}
+[22.548685] (-) TimerEvent: {}
+[22.648939] (-) TimerEvent: {}
+[22.749155] (-) TimerEvent: {}
+[22.849460] (-) TimerEvent: {}
+[22.949732] (-) TimerEvent: {}
+[23.050025] (-) TimerEvent: {}
+[23.150258] (-) TimerEvent: {}
+[23.250490] (-) TimerEvent: {}
+[23.350751] (-) TimerEvent: {}
+[23.451030] (-) TimerEvent: {}
+[23.551311] (-) TimerEvent: {}
+[23.651594] (-) TimerEvent: {}
+[23.751770] (-) TimerEvent: {}
+[23.851988] (-) TimerEvent: {}
+[23.952238] (-) TimerEvent: {}
+[24.052515] (-) TimerEvent: {}
+[24.152793] (-) TimerEvent: {}
+[24.253052] (-) TimerEvent: {}
+[24.353288] (-) TimerEvent: {}
+[24.453562] (-) TimerEvent: {}
+[24.553822] (-) TimerEvent: {}
+[24.654060] (-) TimerEvent: {}
+[24.754274] (-) TimerEvent: {}
+[24.854551] (-) TimerEvent: {}
+[24.954847] (-) TimerEvent: {}
+[25.055165] (-) TimerEvent: {}
+[25.155418] (-) TimerEvent: {}
+[25.255656] (-) TimerEvent: {}
+[25.355860] (-) TimerEvent: {}
+[25.456074] (-) TimerEvent: {}
+[25.556269] (-) TimerEvent: {}
+[25.656443] (-) TimerEvent: {}
+[25.756628] (-) TimerEvent: {}
+[25.856765] (-) TimerEvent: {}
+[25.956947] (-) TimerEvent: {}
+[26.057157] (-) TimerEvent: {}
+[26.157397] (-) TimerEvent: {}
+[26.257635] (-) TimerEvent: {}
+[26.357855] (-) TimerEvent: {}
+[26.458051] (-) TimerEvent: {}
+[26.558267] (-) TimerEvent: {}
+[26.658503] (-) TimerEvent: {}
+[26.758729] (-) TimerEvent: {}
+[26.858928] (-) TimerEvent: {}
+[26.959151] (-) TimerEvent: {}
+[27.059341] (-) TimerEvent: {}
+[27.159548] (-) TimerEvent: {}
+[27.259783] (-) TimerEvent: {}
+[27.360022] (-) TimerEvent: {}
+[27.460255] (-) TimerEvent: {}
+[27.560482] (-) TimerEvent: {}
+[27.660789] (-) TimerEvent: {}
+[27.761053] (-) TimerEvent: {}
+[27.861268] (-) TimerEvent: {}
+[27.961463] (-) TimerEvent: {}
+[28.061666] (-) TimerEvent: {}
+[28.161851] (-) TimerEvent: {}
+[28.262057] (-) TimerEvent: {}
+[28.362293] (-) TimerEvent: {}
+[28.462491] (-) TimerEvent: {}
+[28.562647] (-) TimerEvent: {}
+[28.662820] (-) TimerEvent: {}
+[28.763005] (-) TimerEvent: {}
+[28.863220] (-) TimerEvent: {}
+[28.963409] (-) TimerEvent: {}
+[29.063588] (-) TimerEvent: {}
+[29.163744] (-) TimerEvent: {}
+[29.263936] (-) TimerEvent: {}
+[29.364252] (-) TimerEvent: {}
+[29.464505] (-) TimerEvent: {}
+[29.564777] (-) TimerEvent: {}
+[29.665008] (-) TimerEvent: {}
+[29.765236] (-) TimerEvent: {}
+[29.865511] (-) TimerEvent: {}
+[29.965789] (-) TimerEvent: {}
+[30.016769] (package_uid) CommandEnded: {'returncode': 0}
+[30.035143] (package_uid) JobEnded: {'identifier': 'package_uid', 'rc': 0}
+[30.035560] (-) EventReactorShutdown: {}

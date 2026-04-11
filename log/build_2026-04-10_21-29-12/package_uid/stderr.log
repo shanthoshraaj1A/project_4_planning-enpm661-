@@ -1,0 +1,95 @@
+CMake Warning at CMakeLists.txt:18 (add_executable):
+  Cannot generate a safe runtime search path for target pick_place_demo
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/shanthosh/miniconda3/lib
+    runtime library [libcrypto.so.3] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/shanthosh/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp: In function ‘int main(int, char**)’:
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:164:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  164 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:170:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  170 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:176:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  176 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:182:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  182 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:188:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  188 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:194:21: error: invalid initialization of reference of type ‘const nanoseconds&’ {aka ‘const std::chrono::duration<long int, std::ratio<1, 1000000000> >&’} from expression of type ‘const std::chrono::duration<double>’
+  194 |   rclcpp::sleep_for(pause);
+      |                     ^~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42,
+                 from /opt/ros/humble/include/moveit/robot_model/robot_model.h:45,
+                 from /opt/ros/humble/include/moveit/robot_state/robot_state.h:40,
+                 from /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41,
+                 from /home/shanthosh/Downloads/Project 4/src/package_uid/src/pick_place_demo.cpp:8:
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:233:36: note: in passing argument 1 of ‘bool rclcpp::sleep_for(const nanoseconds&, rclcpp::Context::SharedPtr)’
+  233 |   const std::chrono::nanoseconds & nanoseconds,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/pick_place_demo.dir/build.make:76: CMakeFiles/pick_place_demo.dir/src/pick_place_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

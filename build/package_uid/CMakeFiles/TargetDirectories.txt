@@ -1,0 +1,10 @@
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/uninstall.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/package_uid_uninstall.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/pick_place_demo.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/test.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/edit_cache.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/rebuild_cache.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/list_install_components.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/install.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/install/local.dir
+/home/shanthosh/Downloads/Project 4/build/package_uid/CMakeFiles/install/strip.dir

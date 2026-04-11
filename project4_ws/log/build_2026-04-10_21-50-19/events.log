@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000237] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000250] (package_uid) JobQueued: {'identifier': 'package_uid', 'dependencies': OrderedDict()}
+[0.000262] (package_uid) JobStarted: {'identifier': 'package_uid'}
+[0.008940] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'cmake'}
+[0.009568] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'build'}
+[0.010184] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', '--', '-j12', '-l12'], 'cwd': '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.075532] (package_uid) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pick_place_demo\n'}
+[0.095745] (package_uid) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pick_place_demo.dir/src/pick_place_demo.cpp.o\n'}
+[0.099353] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.299711] (-) TimerEvent: {}
+[0.399896] (-) TimerEvent: {}
+[0.500085] (-) TimerEvent: {}
+[0.600288] (-) TimerEvent: {}
+[0.700495] (-) TimerEvent: {}
+[0.800694] (-) TimerEvent: {}
+[0.900880] (-) TimerEvent: {}
+[1.001072] (-) TimerEvent: {}
+[1.101254] (-) TimerEvent: {}
+[1.201442] (-) TimerEvent: {}
+[1.301636] (-) TimerEvent: {}
+[1.401848] (-) TimerEvent: {}
+[1.502049] (-) TimerEvent: {}
+[1.602258] (-) TimerEvent: {}
+[1.702468] (-) TimerEvent: {}
+[1.802679] (-) TimerEvent: {}
+[1.902884] (-) TimerEvent: {}
+[2.003097] (-) TimerEvent: {}
+[2.103314] (-) TimerEvent: {}
+[2.203525] (-) TimerEvent: {}
+[2.303726] (-) TimerEvent: {}
+[2.403927] (-) TimerEvent: {}
+[2.504133] (-) TimerEvent: {}
+[2.604333] (-) TimerEvent: {}
+[2.704539] (-) TimerEvent: {}
+[2.804738] (-) TimerEvent: {}
+[2.904939] (-) TimerEvent: {}
+[3.005987] (-) TimerEvent: {}
+[3.106203] (-) TimerEvent: {}
+[3.206398] (-) TimerEvent: {}
+[3.306587] (-) TimerEvent: {}
+[3.406791] (-) TimerEvent: {}
+[3.506989] (-) TimerEvent: {}
+[3.607180] (-) TimerEvent: {}
+[3.707402] (-) TimerEvent: {}
+[3.807616] (-) TimerEvent: {}
+[3.907797] (-) TimerEvent: {}
+[4.007972] (-) TimerEvent: {}
+[4.108210] (-) TimerEvent: {}
+[4.208462] (-) TimerEvent: {}
+[4.308663] (-) TimerEvent: {}
+[4.408867] (-) TimerEvent: {}
+[4.509084] (-) TimerEvent: {}
+[4.609270] (-) TimerEvent: {}
+[4.709482] (-) TimerEvent: {}
+[4.809670] (-) TimerEvent: {}
+[4.909858] (-) TimerEvent: {}
+[5.010063] (-) TimerEvent: {}
+[5.110253] (-) TimerEvent: {}
+[5.210444] (-) TimerEvent: {}
+[5.310630] (-) TimerEvent: {}
+[5.410824] (-) TimerEvent: {}
+[5.511027] (-) TimerEvent: {}
+[5.611219] (-) TimerEvent: {}
+[5.711415] (-) TimerEvent: {}
+[5.811601] (-) TimerEvent: {}
+[5.911810] (-) TimerEvent: {}
+[6.011988] (-) TimerEvent: {}
+[6.112176] (-) TimerEvent: {}
+[6.212371] (-) TimerEvent: {}
+[6.312567] (-) TimerEvent: {}
+[6.412751] (-) TimerEvent: {}
+[6.512940] (-) TimerEvent: {}
+[6.566619] (package_uid) StdoutLine: {'line': b'[100%] Linking CXX executable pick_place_demo\n'}
+[6.613054] (-) TimerEvent: {}
+[6.713268] (-) TimerEvent: {}
+[6.800175] (package_uid) StdoutLine: {'line': b'[100%] Built target pick_place_demo\n'}
+[6.813385] (package_uid) CommandEnded: {'returncode': 0}
+[6.813665] (-) TimerEvent: {}
+[6.813866] (package_uid) JobProgress: {'identifier': 'package_uid', 'progress': 'install'}
+[6.822611] (package_uid) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'], 'cwd': '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid', 'env': OrderedDict([('USER', 'shanthosh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shanthosh'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shanthosh/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ros/humble/bin:/snap/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/shanthosh/Downloads/Project 4/project4_ws/build/package_uid'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.831464] (package_uid) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.831721] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/lib/package_uid/pick_place_demo\n'}
+[6.832864] (package_uid) StdoutLine: {'line': b'-- Set runtime path of "/home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/lib/package_uid/pick_place_demo" to ""\n'}
+[6.833166] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config\n'}
+[6.833496] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/config/pick_place_demo.yaml\n'}
+[6.833649] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch\n'}
+[6.833719] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/launch/pick_place_demo.launch.py\n'}
+[6.833961] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/README.md\n'}
+[6.834035] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml\n'}
+[6.834081] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/package_run_dependencies/package_uid\n'}
+[6.834122] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/parent_prefix_path/package_uid\n'}
+[6.834163] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.sh\n'}
+[6.834203] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/ament_prefix_path.dsv\n'}
+[6.834243] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.sh\n'}
+[6.834283] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/environment/path.dsv\n'}
+[6.834321] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.bash\n'}
+[6.834366] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.sh\n'}
+[6.834405] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.zsh\n'}
+[6.834446] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/local_setup.dsv\n'}
+[6.834486] (package_uid) StdoutLine: {'line': b'-- Installing: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.dsv\n'}
+[6.834524] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/ament_index/resource_index/packages/package_uid\n'}
+[6.834563] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig.cmake\n'}
+[6.834602] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/cmake/package_uidConfig-version.cmake\n'}
+[6.834640] (package_uid) StdoutLine: {'line': b'-- Up-to-date: /home/shanthosh/Downloads/Project 4/project4_ws/install/package_uid/share/package_uid/package.xml\n'}
+[6.835183] (package_uid) CommandEnded: {'returncode': 0}
+[6.849558] (package_uid) JobEnded: {'identifier': 'package_uid', 'rc': 0}
+[6.850070] (-) EventReactorShutdown: {}
