@@ -101,7 +101,3 @@ package_uid/
     └── pick_place_demo.cpp
 ```
 
-## Notes
-
-- The package name is currently `package_uid` as a placeholder and should be renamed to match your actual UID before final submission.
-- Submit only your project package as `package_UID.zip`, not the generated MoveIt packages or `panda_description`.
